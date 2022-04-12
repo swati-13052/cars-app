@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { ThemeContext } from "../../constants/theme";
-import { carService } from "../../services/carService";
-import { firstCharUpperCase } from "../../utils/util";
+import { ThemeContext } from "constants/theme";
+import { carService } from "services/carService";
+import { firstCharUpperCase } from "utils/util";
 import { CarInfoContainer, CarInfo, AddButton, AddCarBox, CarImage } from './CarDetailsCss';
 import CircularProgress from '@mui/material/CircularProgress';
-import CarDetailsSkeleton from "./CarDetailsSkeleton";
+import CarDetailsSkeleton from "pages/CarDetails/CarDetailsSkeleton.js";
 
 function CarDetails() {
 

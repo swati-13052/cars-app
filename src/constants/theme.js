@@ -24,6 +24,9 @@ export const ButtonTheme = createTheme({
             main: '#EA7F28',
             dark: '#D37324',
             contrastText: '#fff'
+        },
+        action: {
+            hover: '#D37324'
         }
     }
 })

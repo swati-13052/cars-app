@@ -1,11 +1,11 @@
 import { useState, useEffect, useContext } from 'react';
-import { carService } from '../../services/carService';
-import CarsList from '../../components/CarsList/CarsList';
-import CarFilter from '../../components/CarFilter/CarFilter';
+import { carService } from 'services/carService';
+import CarsList from 'components/CarsList/CarsList';
+import CarFilter from 'components/CarFilter/CarFilter';
 import { CarsDisplaycontainer, CarsContainer } from './AllCardDisplayCss';
-import { ThemeContext } from '../../constants/theme';
-import Pagination from '../../components/Pagination/Pagination';
-import CarListSkeleton from '../../components/CarsList/CarListSkeleton';
+import { ThemeContext } from 'constants/theme';
+import Pagination from 'components/Pagination/Pagination';
+import CarListSkeleton from 'components/CarsList/CarListSkeleton';
 
 function AllCarsDisplayContainer() {
     const [allCars, setAllCars ] = useState([]);

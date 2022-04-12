@@ -1,4 +1,4 @@
-import { getAllCarsURL, getAllColoursURL, getAllManufacturerURL, getCarDetails } from "../constants/urls";
+import { getAllCarsURL, getAllColoursURL, getAllManufacturerURL, getCarDetails } from "constants/urls";
 
 
 function fetchAllCars(payload) {
@@ -33,11 +33,11 @@ function getCarDetailsForStockNumber(stockNumber) {
         return response.json();
     })
     .then(response => response);
-}
+};
 
 export const carService = {
     fetchAllCars,
     getAllColours,
     getAllManufacturer,
     getCarDetailsForStockNumber
-}
+};

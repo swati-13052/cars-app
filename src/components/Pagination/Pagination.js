@@ -1,6 +1,5 @@
-import Link from '@mui/material/Link';
-import { useContext, useState } from 'react';
-import { ThemeContext } from '../../constants/theme';
+import { useContext } from 'react';
+import { ThemeContext } from 'constants/theme';
 import { PaginationContainer, StyledLink } from './PaginationCss';
 
 function Pagination(props) {

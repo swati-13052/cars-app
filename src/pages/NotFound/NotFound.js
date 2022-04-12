@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../constants/theme";
-import { logoURL } from "../../constants/urls";
+import { ThemeContext } from "constants/theme";
+import { logoURL } from "constants/urls";
 import { NotFoundContainer } from "./NotFoundCss";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from "@mui/material";

@@ -1,6 +1,6 @@
 import { memo, useContext } from 'react';
-import { ThemeContext } from '../../constants/theme';
-import { logoURL } from '../../constants/urls';
+import { ThemeContext } from 'constants/theme';
+import { logoURL } from 'constants/urls';
 import { HeaderContainer, HeaderNavbar } from './HeaderCss';
 
 export const Header = memo(() => {

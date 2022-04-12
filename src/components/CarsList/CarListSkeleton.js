@@ -1,4 +1,4 @@
-import Shimmer from '../Shimmer/Shimmer';
+import Shimmer from 'components/Shimmer/Shimmer';
 import { Card, CardContainer, CardImageContainer, CardSectionContainer } from './CarListCss';
 
 function CarListSkeleton() {
