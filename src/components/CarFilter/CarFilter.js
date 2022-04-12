@@ -1,10 +1,10 @@
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import { useContext, useEffect, useState } from 'react';
-import { CAR_FILTERS } from '../../constants/constants';
-import { ThemeContext } from '../../constants/theme';
+import { CAR_FILTERS } from 'constants/constants';
+import { ThemeContext } from 'constants/theme';
 import { CarsFilterContainer, FilterButton, StyledInputLabel } from './CarFilterCss';
-import { firstCharUpperCase } from '../../utils/util';
+import { firstCharUpperCase } from 'utils/util';
 
 function CarFilter(props) {
     const theme = useContext(ThemeContext);

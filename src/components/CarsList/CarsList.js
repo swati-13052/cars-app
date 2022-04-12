@@ -1,7 +1,7 @@
 import { memo, useContext } from 'react';
 import { Card, CardContainer, CardImage, CardImageContainer, CardSectionContainer, CarName, CarInfo, CarDetailsLink } from './CarListCss';
-import { ThemeContext } from '../../constants/theme';
-import { firstCharUpperCase } from '../../utils/util';
+import { ThemeContext } from 'constants/theme';
+import { firstCharUpperCase } from 'utils/util';
 import { Link as RouterLink } from "react-router-dom";
 
 const CarsList = memo((props) => {

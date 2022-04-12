@@ -1,7 +1,7 @@
 import { CarInfoContainer, AddCarBox, CarInfoShimmer } from './CarDetailsCss';
-import Shimmer from "../../components/Shimmer/Shimmer";
+import Shimmer from "components/Shimmer/Shimmer";
 import { useContext } from 'react';
-import { ThemeContext } from '../../constants/theme';
+import { ThemeContext } from 'constants/theme';
 
 function CarDetailsSkeleton() {
     const theme = useContext(ThemeContext);
