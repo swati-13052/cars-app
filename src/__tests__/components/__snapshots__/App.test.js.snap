@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-hHLeRK fRARrS"
+  >
+    <img
+      class="logo"
+      src="https://auto1-js-task-api--mufasa71.repl.co/images/logo.png"
+    />
+    <div
+      class="sc-dmRaPn dQGTkR"
+    >
+      <p>
+        Purchase
+      </p>
+      <p>
+        My Orders
+      </p>
+      <p>
+        Sell
+      </p>
+    </div>
+  </section>
+  <div
+    class="App"
+  >
+    <div>
+      <div
+        class="sc-kDDrLX cVUdrF"
+      >
+        <div
+          class="sc-ftvSup jbRkxV"
+        >
+          <label
+            class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary sc-papXJ cohQmi css-1f7u9wx-MuiFormLabel-root-MuiInputLabel-root"
+            data-testid="color-label"
+            id="color-label"
+          >
+            Color
+          </label>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary  css-aw1y6z-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+            data-testid="color-select"
+          >
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-label="Without label"
+              aria-labelledby="color-label"
+              class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              role="button"
+              tabindex="0"
+            >
+              All car colors
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              tabindex="-1"
+              value=""
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-hdw1oc"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          <label
+            class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary sc-papXJ cohQmi css-1f7u9wx-MuiFormLabel-root-MuiInputLabel-root"
+            data-testid="manufacturer-label"
+            id="manufacturer-label"
+          >
+            Manufacturer
+          </label>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary  css-tcxnl-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+            data-testid="manufacturer-select"
+          >
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-label="Without label"
+              aria-labelledby="manufacturer-label"
+              class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              role="button"
+              tabindex="0"
+            >
+              All Manufacturers
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              tabindex="-1"
+              value=""
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-hdw1oc"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          <div
+            class="filter-button-container"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root sc-jqUVSM bZHKEJ css-lhal63-MuiButtonBase-root-MuiButton-root"
+              pagetheme="[object Object]"
+              tabindex="0"
+              type="button"
+            >
+              Filter
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="sc-iqcoie jjHiTb"
+        >
+          <div
+            class="available-car-text"
+          >
+            Available Cars
+          </div>
+          <div
+            class="total-car-text"
+          >
+            Showing 0 of 
+          </div>
+          <div
+            class="sc-bczRLJ cwWcEc"
+          >
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+            <div
+              class="sc-gsnTZi dlZLCV"
+            >
+              <div
+                class="sc-hKMtZM dPyVPv"
+              >
+                <div
+                  class="sc-breuTD SdyYY"
+                  height="50px"
+                  width="50px"
+                />
+              </div>
+              <section
+                class="sc-gKXOVf ebLWcE"
+              >
+                <div
+                  class="sc-breuTD gmavRD"
+                  height="10px"
+                  width="200px"
+                />
+                <div
+                  class="sc-breuTD gLhauy"
+                  height="10px"
+                  width="300px"
+                />
+                <div
+                  class="sc-breuTD gCnHQs"
+                  height="10px"
+                  width="100px"
+                />
+              </section>
+            </div>
+          </div>
+          <section
+            class="sc-crXcEl lkCLSP"
+          >
+            <button
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover MuiLink-button sc-evZas dswQCQ css-1ytozll-MuiTypography-root-MuiLink-root"
+              disabled=""
+            >
+              First
+            </button>
+            <button
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover MuiLink-button sc-evZas dswQCQ css-1ytozll-MuiTypography-root-MuiLink-root"
+              disabled=""
+            >
+              Previous
+            </button>
+            <p
+              class="page-number-info"
+            >
+              Page 1 of 
+            </p>
+            <button
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover MuiLink-button sc-evZas kvdJSA css-1ytozll-MuiTypography-root-MuiLink-root"
+            >
+              Next
+            </button>
+            <button
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover MuiLink-button sc-evZas kvdJSA css-1ytozll-MuiTypography-root-MuiLink-root"
+            >
+              Last
+            </button>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-fLlhyt gDkwxg"
+  >
+    <div>
+      © 
+    </div>
+    <div>
+      Cars App 
+    </div>
+    <div>
+      2022 
+    </div>
+  </div>
+</DocumentFragment>
+`;

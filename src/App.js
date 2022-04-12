@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Route,
+  BrowserRouter,
+  Routes
+} from "react-router-dom";
+import AllCarsDisplayContainer from "./pages/CarList/AllCarsDisplayComponents";
+import { ButtonTheme, theme, ThemeContext } from './constants/theme';
+import CarDetails from "./pages/CarDetails/CarDetails";
+import { Header } from "./components/Header/Header";
+import NotFound from "./pages/NotFound/NotFound";
+import { Footer } from "./components/Footer/Footer";
+import { ThemeProvider } from '@mui/material/styles';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={theme}>
+      <Header />
+      <div className="App">
+      <ThemeProvider theme={ButtonTheme}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<AllCarsDisplayContainer />}/>
+            <Route path="/car-details/:stockNumber" element={<CarDetails />}/>
+            <Route path="*" element={<NotFound />}></Route>
+          </Routes>
+        </BrowserRouter>
+        </ThemeProvider>
+      </div>
+      <Footer />
+    </ThemeContext.Provider>
   );
 }
 

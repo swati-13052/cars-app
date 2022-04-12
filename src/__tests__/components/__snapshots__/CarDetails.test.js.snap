@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-eCYdqJ pWzAx"
+    >
+      <img
+        alt="Loading.."
+        class="car-image"
+      />
+    </div>
+    <div>
+      <div
+        class="sc-bczRLJ ftEacv"
+      >
+        <div
+          class="sc-gKXOVf hyfxAg"
+        >
+          <div
+            class="sc-iBkjds kyxOsE"
+            height="50px"
+            width="400px"
+          />
+          <div
+            class="sc-iBkjds hSBNiW"
+            height="20px"
+            width="500px"
+          />
+          <div
+            class="sc-iBkjds hPqkyq"
+            height="200px"
+            width="500px"
+          />
+        </div>
+        <div
+          class="sc-hKMtZM gEpEHx"
+        >
+          <div
+            class="sc-iBkjds bTQqDC"
+            height="40px"
+            width="300px"
+          />
+          <div
+            class="sc-iBkjds dOfMWK"
+            height="20px"
+            width="100px"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
